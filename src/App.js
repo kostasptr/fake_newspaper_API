@@ -11,6 +11,7 @@ function App() {
       <div className="wrapper">
         <Routes>
           <Route path="/" element={<Home/>} />
+          <Route path="/fake_newspaper_API/" element={<Home/>} />
           <Route path="*" element={<NotFound/>} />
         </Routes>        
       </div>
