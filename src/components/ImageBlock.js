@@ -6,7 +6,7 @@ function ImageBlock(props) {
 
     <div className="imageBlocksContent">
     
-        <img src="https://via.placeholder.com/300x230" className="imageBack" alt="placeholder" />
+        <img src={props.image} className="imageBack" alt="placeholder" />
         <div className="category">
           <p className="categoryText">{props.category}</p>
         </div>
