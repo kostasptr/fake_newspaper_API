@@ -1,0 +1,85 @@
+@import './mySass.scss';
+
+.bigBlocksContent{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  margin-bottom:15px;
+  cursor: pointer;
+}
+
+.imageBack2{
+  width:100%;
+}
+
+.category2{
+  position:absolute;
+  top:15px;
+  left:15px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:28px;
+  width:fit-content;
+  margin: 0;
+  border-end-end-radius: 10px;
+  background-color: $markColor;
+}
+
+.categoryText2{
+  font-size: $fSizeCategory;
+  line-height: 22px;
+  font-weight: $fWeight;
+  font-family: $fFamily;
+  color: $bgColumnColor;
+  text-transform: uppercase;
+  margin: 3px 8px;
+}
+
+.bigBloText{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+  min-height: 75px;
+  background-color: $bgColumnColor;
+}
+
+.footerBigBlock{
+  max-width:360px;
+  word-wrap: break-word;
+}
+
+.textSectionH2{
+  display:block;
+  font-size: $fSizeLinks;
+  font-family: $fFamily;
+  color: $textColor;
+  line-height:30px;
+  margin:15px 0 0 15px;
+  padding:0;
+}
+
+.textSectionT2{
+  display:block;
+  font-size: $fSizeText;
+  font-family:$fFamilyDate;
+  color: $textColor;
+  line-height:17px;
+  margin:0 0 15px 15px;
+  padding:0;
+}
+
+.ellipse{
+  max-width:45px;
+  max-height:45px;
+  margin:0 15px 0 15px;
+  border-radius: 50%;
+  border: solid 1px $markColor;
+  box-sizing: border-box;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

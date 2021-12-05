@@ -1,0 +1,27 @@
+$bgColor: #454444;
+$bgColumnColor: #000000;
+$markColor: #FCFF74;
+$textColor: #FFFFFF;
+$fFamily: 'Patua One', cursive;
+$fFamilyDate: 'Prociono', serif;
+$fSizeText: 14px;
+$fSizeFooter: 16px;
+$fSizeCategory: 18px;
+$fSizeLinks: 24px;
+$fSizeTitle: 50px;
+$fWeight: 400;
+
+// Line-height Crop removes the top space from my text element:
+// total-space = font-size*line-height - font-size = (line-height - 1)*font-size = (line-height - 1)*1em
+// Assuming bottom and top spaces are equal, it gives you:
+// top-space = (line-height - 1)*1em/2 = (line-height - 1)*0.5em
+@mixin lhCrop($line-height) {
+  &::before {
+    content: '';
+    display: block;
+    height: 0;
+    width: 0;
+    margin-top: calc((1 - #{$line-height}) * 0.5em);
+  }
+}
+

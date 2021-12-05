@@ -1,0 +1,10 @@
+@import "./styles/mySass.scss";
+
+.wrapper{
+  display:flex;
+  flex-direction:column;
+  height:auto;
+  align-items: center;
+  background-color: $bgColor;
+}
+
