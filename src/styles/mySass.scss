@@ -11,6 +11,7 @@ $fSizeLinks: 24px;
 $fSizeTitle: 50px;
 $fWeight: 400;
 
+// https://codyhouse.co/blog/post/line-height-crop
 // Line-height Crop removes the top space from my text element:
 // total-space = font-size*line-height - font-size = (line-height - 1)*font-size = (line-height - 1)*1em
 // Assuming bottom and top spaces are equal, it gives you:
